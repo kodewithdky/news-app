@@ -1,13 +1,12 @@
-import React, { Component } from "react";
 import spinner from "../assets/spinner/repel.svg";
-export class Spinner extends Component {
-  render() {
-    return (
-      <div className="text-center my-3">
-        <img src={spinner} alt="loadin..." />
-      </div>
-    );
-  }
-}
+import React from "react";
+
+const Spinner = () => {
+  return (
+    <div className="text-center my-3">
+      <img src={spinner} alt="loadin..." />
+    </div>
+  );
+};
 
 export default Spinner;
